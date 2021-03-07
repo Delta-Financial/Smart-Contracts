@@ -1,4 +1,5 @@
 pragma solidity ^0.7.6;
+// DELTA-BUG-BOUNTY
 
 struct VestingTransaction {
     uint112 amount;

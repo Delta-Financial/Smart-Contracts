@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+// DELTA-BUG-BOUNTY
 pragma experimental ABIEncoderV2;
 pragma solidity ^0.7.6;
 
@@ -96,7 +97,7 @@ contract DELTAToken is Context, IERC20 {
                 hex'96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f' // init code hash
             ))));
         // We whitelist the pair to have no vesting on reception
-        governance = msg.sender; // TODO: Remove -- bypass !gov checks
+        governance = msg.sender; // TODO: Remove -- bypass !gov checks (Note that temporary test measures like this aren't valid bug bounty issues)
         setNoVestingWhitelist(uniswapPair, true);
         setWhitelists(multisig, true, true, true);
 

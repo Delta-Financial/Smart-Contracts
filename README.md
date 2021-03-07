@@ -1,4 +1,4 @@
-# BUG BOUNTY NOT YET LIVE
+# BUG BOUNTY LIVE - March 8, 2021 00:00:00 UTC
 
 ## What's includes in the bug bounty?
 
