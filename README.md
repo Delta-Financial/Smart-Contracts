@@ -1,1 +1,18 @@
-:# BUG BOUNTY NOT YET LIVE
+# BUG BOUNTY NOT YET LIVE
+
+## What's includes in the bug bounty?
+
+Only files including the comment:
+
+```
+// DELTA-BUG-BOUNTY
+```
+
+## How do I run tests?
+
+First search and replaced `ALCHEMY_API` references with your API key.
+Then:
+
+```
+./liveTest.sh --token tests_live/delta/delta_token.js
+```
