@@ -14,5 +14,6 @@ First search and replaced `ALCHEMY_API` references with your API key.
 Then:
 
 ```
+./build.sh # Only needed once
 ./liveTest.sh --token tests_live/delta/delta_token.js
 ```
