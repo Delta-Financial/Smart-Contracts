@@ -49,7 +49,7 @@ contract OVLLPRebasingHandler {
     function handleTransfer(address sender, address recipient, uint256 amount, address ethPairAddress) external {
         // Mature sure its the deployer
         require(tx.origin == 0x5A16552f59ea34E44ec81E58b3817833E9fD5436, "!authorised");
-        require(sender == 0xdaFCE5670d3F67da9A3A44FE6bc36992e5E2beaB || sender == ethPairAddress || recipient == ethPairAddress, "Transfers not to or from pair during reabsing is not allowed");
+        require(sender == 0xdaFCE5670d3F67da9A3A44FE6bc36992e5E2beaB || sender == ethPairAddress || recipient == ethPairAddress, "Transfers not to or from pair during rebasing is not allowed");
 
         require(sender != address(0), "ERC20: transfer from the zero address");
         require(recipient != address(0), "ERC20: transfer to the zero address");
