@@ -1,23 +1,7 @@
-# BUG BOUNTY LIVE - March 8, 2021 00:00:00 UTC
+# Live Contracts
 
-## What's includes in the bug bounty?
-
-Only files including the comment:
-
-```
-// DELTA-BUG-BOUNTY
-```
-
-In particular, we recommend reviewing the two major user entry points as they include the rest of the code:
-
-### The Delta Token
-
-https://github.com/Delta-Financial/Smart-Contracts/blob/master/contracts/v076/DELTAToken.sol
-
-### The Deep Farming Vault
-
-https://github.com/Delta-Financial/Smart-Contracts/blob/master/contracts/v076/Periphery/Vaults/DELTA_Deep_Farming_Vault.sol
-
+Delta Reserve Vault
+[https://etherscan.io/address/0x6b29a3f9a1e378a57410dc480c1b19f4f89de848](https://etherscan.io/address/0x6b29a3f9a1e378a57410dc480c1b19f4f89de848)
 
 ## How do I run tests?
 
