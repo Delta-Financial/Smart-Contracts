@@ -45,7 +45,7 @@ contract DELTAToken is OVLBase, Context, IERC20 {
     uint256 private constant TOTAL_SUPPLY = 45_000_000e18;
 
     // Configuration
-    address private constant WETH_ADDRESS = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
+    address private constant WETH_ADDRESS = 0xd6ae8250b8348c94847280928c79fb3b63ca453e;
     address private constant BURNER = 0xDeaDbeefdEAdbeefdEadbEEFdeadbeEFdEaDbeeF;
     address private constant LSW_ADDRESS = 0xdaFCE5670d3F67da9A3A44FE6bc36992e5E2beaB;
 
